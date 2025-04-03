@@ -1,0 +1,18 @@
+*{
+    background-color: azure;
+    margin: 5px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.matrix{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3, 100px) ;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: rgb(192, 216, 111);
+}
